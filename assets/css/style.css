@@ -1,13 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /*------------------------------------------HEADER*/
 
-.bghead {
-    height: 350px;
-    background-color: #808080;
+.bgheadmain {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
     color: blue;
+    text-align: center;
+    margin-top: 25px;
+    
+  
 }
+
+.bgheadmenuhome {
+    text-align: center;
+    font-family: "Exo",sans-serif;
+    font-weight: 400;
+    background-color: #000;
+    border-radius: 45%;
+}
+
+
+
+.bgheadmenugallery {
+    text-align: center;
+    font-family: "Exo",sans-serif;
+    font-weight: 400;
+    background-color: brown;
+    border-radius: 45%;
+
+}
+
+.bgheadmenucontact {
+    text-align: center;
+    font-family: "Exo",sans-serif;
+    font-weight: 400;
+    background-color: green;
+    border-radius: 45%;
+
+}
+
+/*------------------------------------------BODY*/
+.picture {
+    background: url("../images/amsterda1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    height: 800px;
+    
+}
+
 
 /*------------------------------------------FONTS*/
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.headfont {
+    color: #fff;
 }
