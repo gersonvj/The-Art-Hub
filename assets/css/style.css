@@ -1,0 +1,13 @@
+/*------------------------------------------HEADER*/
+
+.bghead {
+    height: 350px;
+    background-color: #808080;
+    color: blue;
+}
+
+/*------------------------------------------FONTS*/
+
+.uppercase {
+    text-transform: uppercase;
+}
