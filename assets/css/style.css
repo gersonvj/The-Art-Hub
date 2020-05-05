@@ -1,19 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Sedgwick Ave Display:100,200,300,400,500,600,700');
 
 /*------------------------------------------HEADER*/
 
 .bgheadmain {
     width: 100%;
-    height: 80px;
-    background: url("../images/cars2.jpg");
-    color: blue;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 75px;
+    height: 100px;    
+    background: url("../images/riscosmain.jpg");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+         
+}
+
+.bgheadmaintxt {
+    color: white;
+    text-align: center;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.picturehead {
+    background: url("../images/pencil.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
+}
+
+.picturetext{
+    color: #fafafa;
+    font-weight: 400;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    text-align: center;
+    font-size: 35px;
     
-  
+
+}
+
+.headertext{
+    color: #fafafa;
+    font-weight: 600;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    text-align: right;
+    font-size: 35px;
 }
 
 .bgheadmenuhome {
@@ -22,6 +53,7 @@
     font-weight: 400;
     background-color: #000;
     border-radius: 45%;
+    margin-top: 25px;
 }
 
 
@@ -32,6 +64,7 @@
     font-weight: 400;
     background-color: brown;
     border-radius: 45%;
+    margin-top: 25px;
 
 }
 
@@ -41,6 +74,7 @@
     font-weight: 400;
     background-color: green;
     border-radius: 45%;
+    margin-top: 25px;
 
 }
 
