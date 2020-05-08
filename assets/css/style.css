@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Sedgwick Ave Display:100,200,300,400,500,600,700');
 
+
+
 /*------------------------------------------HEADER*/
 
-.bgheadmain {
-    width: 100%;
-    height: 100px;    
-    background: url("../images/riscosmain.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-         
-}
-
+    
 .bgheadmaintxt {
     color: white;
     text-align: center;
@@ -23,13 +16,15 @@
 
 .picturehead {
     background: url("../images/pencil.jpg");
-    background-position: center;
+     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1px;
-    padding: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
     
     
+        
 }
 
 .picturetext{
@@ -39,109 +34,91 @@
     text-align: center;
     font-size: 35px;
     
-
 }
 
-.headertext{
-    color: #fafafa;
-    font-weight: 600;
-    font-family: "Sedgwick Ave Display",sans-serif;
-    text-align: right;
-    font-size: 35px;
+h1,
+h6 {
+    margin: 0px;
+    padding: 0px;
 }
 
-.containerhead {
-    width: 100%;
-    height: 100px;
+
+
+/*------------------------------------------MENU NAVBAR*/
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
-/*------------------------------------------MENU SECTION*/
-
-
-   
-.menuitem {
+nav li {
+    display: inline-block;
     text-decoration: none;
 }
 
-.containermenusection {
-    width: 100%;
-    display: inline-block;
-    height: 50px;
-    margin-top: 1px;
+nav li:hover {
+    background-color: rgba(182, 189, 182, 0.952);
+    
 }
 
-.inlineblock {
-    display: inline-block;
+.homemenubutton {
+    width: 25%;
+    height: 60px;
+    background-color: rgb(75, 92, 75);
 }
 
-.ui-menu-color-home {
-    background-color: #e67e22;
+.gallerymenubutton {
+    width: 25%;
+    height: 60px;
+    background-color: rgb(75, 92, 75);
+
+}
+.contactmenubutton {
+    width: 25%;
+    height: 60px;
+    background-color: rgb(75, 92, 75);
+
 }
 
-.ui-menu-color-resume {
-    background-color: #9b59b6;
-}
-
-.ui-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ui-menu-color-download {
-    background-color: #525252
-}
-
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
+.homemenutxt {
     text-decoration: none;
-    color: #fff;
-    height: 120px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
+    font-family: "Exo",sans-serif;
     font-weight: 300;
-    letter-spacing: 2px;
+    color: #fafafa;
+    
 }
 
-#nav li {
-    font-size: 14px;
-    padding: 0;
+.gallerymenutxt {
+    text-decoration: none;
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
 }
 
-#nav {
-    margin: 0;
+.contactmenutxt {
+    text-decoration: none;
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
 }
+   
 
 
 /*------------------------------------------BODY PICTURE SECTION*/
 .picture {
     background: url("../images/amsterda1.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    height: 800px;
+    height: 500px;
     
 }
 .sectiontext {
@@ -170,6 +147,20 @@ img.scaled {
 .gallerysection {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+/*------------------------------------------ABOUT SECTION*/
+
+.aboutclass {
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 100px;
+    color: rgb(75, 92, 75);
+    text-align: justify;
+    padding: 10px;
 }
 
 
