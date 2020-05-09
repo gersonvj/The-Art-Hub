@@ -15,13 +15,14 @@
 
 
 .picturehead {
-    background: url("../images/pencil.jpg");
-     background-position: center;
+    background: url("../images/logo.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    height: 200px;
     
     
         
