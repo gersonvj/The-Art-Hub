@@ -149,8 +149,18 @@ img.scaled {
     margin-bottom: 50px;
 }
 
-/*------------------------------------------ABOUT SECTION*/
+.galleryhomesection {
+    margin: 25px;
+}
 
+/*------------------------------------------ABOUT SECTION*/
+.wrapper {
+    height: 350px;
+}
+
+.headingabout {
+    margin-top: 50px;
+}
 .aboutclass {
     font-family: "Roboto",sans-serif;
     font-weight: 300;
@@ -161,6 +171,33 @@ img.scaled {
     color: rgb(75, 92, 75);
     text-align: justify;
     padding: 10px;
+    margin-bottom: 100px;
+}
+
+
+/*-----------------------------------------RECENT*/
+
+.recentwrapper{
+    margin-bottom: 50px;
+}
+
+.recenttxtclass {
+    color: rgb(75, 92, 75); 
+    text-align: center;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+.recentlinkgallery {
+    color: rgb(75, 92, 75); 
+    text-align: right;
+    font-family: "Exo",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+
 }
 
 
@@ -174,6 +211,12 @@ img.scaled {
     color: #fff;
 }
 
-/*------------------------------------------MEDIA*/
+/*------------------------------------------footer*/
+
+.footer-details {
+    margin-top: 30px;
+}
+
+
 
 
