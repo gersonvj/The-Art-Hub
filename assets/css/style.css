@@ -11,13 +11,15 @@
     font-family: "Sedgwick Ave Display",sans-serif;
     font-size: 35px;
     font-weight: 100;
+    margin-top: 30px;
     
 }
 
 @media screen and (max-width: 800px) {
   .bgheadmaintxt {
     font-size: 18px;
-    margin-top: 50px;
+    margin-top: 30px;
+    
     
   }
 }
@@ -37,21 +39,21 @@
         
 }
 
-.picturetext{
-    height: 50px;
-    color: #fafafa;
-    font-weight: 400;
-    font-family: "Sedgwick Ave Display",sans-serif;
+.picturetext {
+    color: white;
     text-align: center;
-    font-size: 50px;
-    margin-top: 550px;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
     
 }
 
 @media screen and (max-width: 800px) {
   .picturetext {
     font-size: 40px;
-    margin-top: 50px;
+    top: 20px;
     
   }
 }
@@ -164,14 +166,7 @@ nav li:hover {
     height: 500px;
     
 }
-.sectiontext {
-    font-family: "Exo",sans-serif;
-    font-weight: 400;
-    text-align: right;
-    margin-left: 60%;
-    padding-top: 500px;
 
-}
 .cardtest{
   float: left;
   width: 30%;
@@ -182,6 +177,15 @@ nav li:hover {
   border: thin silver solid;
   padding: 0.5em;
 }
+
+@media screen and (max-width: 800px) {
+  .cardtest {
+    float: none;
+    width: 100%;
+    
+  }
+}
+
 img.scaled {
   width: 100%;
 }
@@ -198,7 +202,7 @@ img.scaled {
 
 /*------------------------------------------ABOUT SECTION*/
 .wrapper {
-    height: 200px;
+    height: 150px;
 }
 
 @media screen and (max-width: 800px) {
@@ -221,7 +225,7 @@ img.scaled {
     color: rgb(75, 92, 75);
     text-align: justify;
     padding: 10px;
-    margin-bottom: 100px;
+    
 }
 
 
@@ -278,14 +282,46 @@ img.scaled {
     color: #fff;
 }
 
-/*------------------------------------------footer*/
-
-.footer-details {
-    margin-top: 30px;
+/*------------------------------------------adress*/
+.addreeshead {
+    text-align: center;
+    
+    font-size:  25px;
 }
 
+.contactclass {
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: rgb(75, 92, 75);
+    text-align: center;
+}
+
+.addresswrapper {
+    height: 150px;
+}
+
+@media screen and (max-width: 800px) {
+  .addresswrapper {
+    float: none;
+    height: 165px;
+  }
+}
+
+/*------------------------------------------footer*/
+  
+     
+
+
+
 .social-links {
-    padding-bottom: 15px;
+    width: 100%;
+    height: 50px;    
+    position: relative;
+    
+    text-align: center;
 }
 
 .social-links li a i {
@@ -302,6 +338,26 @@ img.scaled {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .social-links li a i {
+    width: 48px;
+    height: 48px;
+    padding: 18px 0;
+    border-radius: 50%;
+    font-size: 19px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin: auto;
+  }
 }
 
 .social-links li a i:hover {
