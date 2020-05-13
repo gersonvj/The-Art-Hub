@@ -3,7 +3,9 @@
 
 
 /*------------------------------------------HEADER*/
-
+.body {
+    background-color: #fafafa;
+}
     
 .bgheadmaintxt {
     color: white;
@@ -174,8 +176,13 @@ nav li:hover {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  border: thin silver solid;
+  
   padding: 0.5em;
+  max-height: 500px;
+}
+
+img {
+    max-height: 450px;
 }
 
 @media screen and (max-width: 800px) {
@@ -244,6 +251,26 @@ img.scaled {
     font-weight: 100;
 
 }
+.recenttxtclassgallery {
+    color: rgb(75, 92, 75); 
+    text-align: left;
+    font-family: "roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.recenttxtclassgallerysignature {
+    color: rgb(75, 92, 75); 
+    text-align: left;
+    font-family: "roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 100px;
+    
+}
+
 @media screen and (max-width: 800px) {
   .recenttxtclass {
     float: none;
