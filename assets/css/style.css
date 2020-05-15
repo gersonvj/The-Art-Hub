@@ -316,14 +316,15 @@ img.scaled {
     font-size: 30px;
     font-weight: 100;
     margin-top: 50px;
-    margin-left: 100px;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%; 
 
 }
 
 @media screen and (max-width: 800px) {
   .recenttxtclassgallery {
     float: none;
-    margin-left: 25px;
     font-size: 20px;
   }
 }
@@ -488,19 +489,20 @@ button[type=submit]:hover {
 
 .recenttxtclasscontact {
     color: rgb(75, 92, 75); 
-    text-align: left;
+    text-align: justify;
     font-family: "roboto",sans-serif;
     font-size: 30px;
     font-weight: 100;
     margin-top: 20px;
-    margin-left: 100px;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%; 
 
 }
 
 @media screen and (max-width: 800px) {
   .recenttxtclasscontact {
     float: none;
-    margin-left: 25px;
     font-size: 20px;
   }
 }
