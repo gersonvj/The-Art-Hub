@@ -72,99 +72,112 @@
 
 /*------------------------------------------MENU NAVBAR*/
 
-nav {
-    background: rgb(64, 40, 14);
-    width: 100%
+
+button[type=menu] {
+    margin-top: 2px;
+    margin-left: 1.5px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: rgb(75, 92, 75) ;
+    width:33%;
+
+}
+
+@media screen and (max-width: 900px) {
+  button[type=menu] {
+    width: 32.5%;
+    margin-left: 0.1px;
     
-
-}
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
+  }
 }
 
-nav li {
-    display: inline-block;
-    text-decoration: none;
-}
-
-nav li:hover {
+button[type=menu]:hover {
     background: #e84610;
+}
+
+/*----------------------------------------INDEX FIRST TEXT */
+
+.indextxttopmain {
+    color: rgb(75, 92, 75); 
+    text-align: center;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 30px; 
     
-}
 
-.homemenubutton {
-    width: 32%;
-    height: 60px;
-    background-color: rgb(75, 92, 75);
 }
-
 @media screen and (max-width: 800px) {
-  .homemenubutton {
+  .indextxttopmain {
     float: none;
-    height: 35px;
+    font-size: 35px;
+     margin-top: 5px; 
     
   }
 }
 
-.gallerymenubutton {
-    width: 32%;
-    height: 60px;
-    background-color: rgb(75, 92, 75);
+.indextxtmiddle {
+      color: rgb(75, 92, 75); 
+    text-align: center;
+    font-family: "Sedgwick Ave Display",sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    
+    
+
+}
+@media screen and (max-width: 800px) {
+  .indextxtmiddle {
+    float: none;
+    font-size: 35px;
+     margin-top: 5px; 
+    
+  }
+
+
+}
+
+.wrappertxtmain {
+    height: 350px;
+}
+
+@media screen and (max-width: 800px) {
+  .wrappertxtmain {
+    float: none;
+    height: 800px;
+    
+  }
+}
+
+.wrappertxtmiddle {
+    height: 200px;
+    margin-top: 50px;
 
 }
 
 @media screen and (max-width: 800px) {
-  .gallerymenubutton {
+  .wrappertxtmiddle {
     float: none;
-    height: 35px;
-    
-  }
-}
-.contactmenubutton {
-    width: 32%;
-    height: 60px;
-    background-color: rgb(75, 92, 75);
-
-}
-
-@media screen and (max-width: 800px) {
-  .contactmenubutton {
-    float: none;
-    height: 35px;
-    
+    height: 360px;
+    margin-top: 30px;
   }
 }
 
-.homemenutxt {
-    text-decoration: none;
-    font-family: "Exo",sans-serif;
+.aboutclasstxtmain {
+    font-family: "Roboto",sans-serif;
     font-weight: 300;
-    color: #fafafa;
-    
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 100px;
+    color: rgb(75, 92, 75);
+    text-align: justify;
+    padding: 10px;
+
 }
 
-.gallerymenutxt {
-    text-decoration: none;
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    
-}
 
-.contactmenutxt {
-    text-decoration: none;
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    
-}
-   
-
-
-/*------------------------------------------BODY PICTURE SECTION*/
+/*------------------------------------------BODY PICTURE/GALLEY SECTIONs*/
 .picture {
     background: url("../images/amsterda1.jpg");
     background-position: top;
@@ -215,6 +228,11 @@ img.scaled {
     margin: 25px;
 }
 
+
+.gallerytoptxt {
+    height: 350px;
+}
+
 /*------------------------------------------ABOUT SECTION*/
 .wrapper {
     height: 150px;
@@ -257,6 +275,7 @@ img.scaled {
     font-family: "Sedgwick Ave Display",sans-serif;
     font-size: 50px;
     font-weight: 100;
+    margin-bottom: 50px;
 
 }
 @media screen and (max-width: 800px) {
@@ -297,7 +316,7 @@ img.scaled {
 
 @media screen and (max-width: 800px) {
   .recenttxtclassgallerysignature {
-    margin-left: 125px;
+    margin-left: 25px;
     font-size: 15px;
     
   }
@@ -352,7 +371,7 @@ img.scaled {
 }
 
 .addresswrapper {
-    height: 150px;
+    height: 100px;
 }
 
 @media screen and (max-width: 800px) {
@@ -367,6 +386,8 @@ img.scaled {
      
 .social-networks{
   text-align: center;
+  height: 10px;
+  
 
 }
 
@@ -383,8 +404,79 @@ img.scaled {
   color: #777777;
 }
 
+/*----------------------------------------CONTACT*/
+
+.bg-color-contact {
+    background-color:#fff;
+ }
+
+ .ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 
 
+}
 
 
+button[type=submit] {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #rgb(75, 92, 75) ;
 
+}
+
+button[type=submit]:hover {
+    background: #e84610;
+}
+
+.contactsignature {
+    color: rgb(75, 92, 75); 
+    text-align: left;
+    font-family: "roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+
+@media screen and (max-width: 800px) {
+  .contactsignature {
+    margin-left: 25px;
+    font-size: 15px;
+    
+  }
+}
+
+.recenttxtclasscontact {
+    color: rgb(75, 92, 75); 
+    text-align: left;
+    font-family: "roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .recenttxtclasscontact {
+    float: none;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+}
