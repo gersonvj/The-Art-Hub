@@ -1,39 +1,90 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1>The Art Hub</h1>
 
-Welcome gersonvj,
+Welcome,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Our concept is to show art from undiscovered artists. The ideia is to gather artists to improve their skills and show in the gallery all their art.
 
-## Gitpod Reminders
+The Art Hub now is starting exposing Shane Byrne arts.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Ux Structure
 
-`python3 -m http.server`
+As the user open the home page, have a introduction that leads him to see a prominent picture with a concept of the drawing. Lead to latest pictures and to the link gallery for more work. If specifc work is required the user go into contact taht leads him to a form and ask any questions he might have it.
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+<ul>Existing Features:
+  <li>Home page: Is the art hub ideia and concept, one main picture, gallery, address and social. The gallery section show the latest pictures, and a link to the gallery to show the user more artworks.</li>
+  <li>Gallery:   Show the arts developed by our community</li>
+  <li>Contact: This contact is for customers who seek a specific type o art and want to ask to the community for developing</li>
+</ul>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<ul>Future Features:
+  <li>Home page: random main picture and gallery. able to click and open the artist gallery from the picture.</li>
+  <li>Gallery:   add more artists and open one gallery for each artist. open search mode for type of art. add a payment method to                        be able to sell the arts.</li>
+  <li>Tutorial: tutorial lessons to improve the website audience.</li>
+</ul>
 
-A blue button should appear to click: *Make Public*,
+## Technologies Used
 
-Another blue button should appear to click: *Open Browser*.
+<H4>HTML5: https://en.wikipedia.org/wiki/HTML5</H4>
+<ul>
+    <li>The main structure to create the webpage</li>
+  </ul>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
+<h4>CSS3: https://en.wikipedia.org/wiki/Cascading_Style_Sheets</H4>
+<ul>
+    <li>The design to create a good user experience</li>
+  </ul>
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<h4>Bootstrap: https://getbootstrap.com/docs/4.4/getting-started/introduction/</h4>
+  <ul>
+    <li>Responsive framework here used for buttons, gallery and reponsive site view.</li>
+  </ul>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<h4>Hoover Library: https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css</h4>
+<ul>
+    <li>Library used to hoover the buttons </li>
+  </ul>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<h4>Fontawewsome: https://fontawesome.com/</h4>
+<ul>
+    <li>Some icons and coail logo</li>
+  </ul>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Deployment
 
-Happy coding!
+Deployed at GitHub, clicking in settings, scrooll down the page until GitHub pages. In the source section clink on the menu-drop, and choose the master-branch option. After done this a weblink will be avaible to use.
+The Art Hub: https://gersonvj.github.io/milestoneproject/
+
+
+
+## Credits
+
+<h5>Content</h5>
+<ul>
+  <li>The definition of Art in the homepage: http://www.visual-arts-cork.com/drawing.htm</li>
+  <li>The Monet text in gallery section was taken from: https://www.brainyquote.com/authors/claude-monet-quotes</li>
+</ul>
+
+<h5>Media</h5>
+<ul>
+  <li>The artwork used in this site were obtained from: https://www.instagram.com/artworkbyshane/</li>
+</ul>
+
+<h5>Acknowledgements</h5>
+<ul>
+  <li>This project is thinking to help the artist people to show more themselves. A special thanks for Shane Byrne the artist that help me with the images for Art Hub.</li>
+</ul>
+ 
+
+
+
+
+
+
+
+
+
