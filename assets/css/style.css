@@ -197,7 +197,8 @@ button[type=menu]:hover {
     color: rgb(75, 92, 75);
     text-align: justify;
     padding: 10px;
-
+    font-size: 20px;
+    
 }
 
 
@@ -221,13 +222,19 @@ button[type=menu]:hover {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  
+  overflow-y: hidden;  
   padding: 0.5em;
-  max-height: 500px;
+  
 }
 
 img {
-    max-height: 300px;
+    max-height: 250px;
+}
+
+@media screen and (max-width: 800px) {
+img {
+    max-height: 100px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -236,10 +243,6 @@ img {
     width: 100%;
     
   }
-}
-
-img.scaled {
-  width: 100%;
 }
 
 
@@ -282,6 +285,8 @@ img.scaled {
     color: rgb(75, 92, 75);
     text-align: justify;
     padding: 10px;
+    font-size: 20px;
+    
     
 }
 
@@ -311,7 +316,7 @@ img.scaled {
 }
 .recenttxtclassgallery {
     color: rgb(75, 92, 75); 
-    text-align: left;
+    text-align: center;
     font-family: "roboto",sans-serif;
     font-size: 30px;
     font-weight: 100;
@@ -331,11 +336,11 @@ img.scaled {
 
 .recenttxtclassgallerysignature {
     color: rgb(75, 92, 75); 
-    text-align: left;
+    text-align: center;
     font-family: "roboto",sans-serif;
     font-size: 20px;
     font-weight: 100;
-    margin-left: 100px;
+    
     
 }
 
@@ -402,7 +407,7 @@ img.scaled {
 @media screen and (max-width: 800px) {
   .addresswrapper {
     float: none;
-    height: 165px;
+    height: 150px;
   }
 }
 
@@ -411,9 +416,9 @@ img.scaled {
      
 .social-networks{
   text-align: center;
-  height: 10px;
+  margin: 0;
+  padding: 0;
   
-
 }
 
 .social-networks li{
@@ -425,7 +430,7 @@ img.scaled {
 .social-networks i{
   font-size: 160%;
   margin: 1%;
-  padding: 4.5%;
+  padding: 2%;
   color: #777777;
 }
 
@@ -451,16 +456,23 @@ img.scaled {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
-
-
 }
 
+@media screen and (max-width:800px){
+    .center-form {
+        max-width: 90%;
+    }
+}
+
+.form-control {
+    margin-top: 20px;
+}
 
 button[type=submit] {
     margin-top: 35px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #rgb(75, 92, 75) ;
+    background-color: rgb(75, 92, 75) ;
 
 }
 
@@ -470,18 +482,18 @@ button[type=submit]:hover {
 
 .contactsignature {
     color: rgb(75, 92, 75); 
-    text-align: left;
+    text-align: center;
     font-family: "roboto",sans-serif;
     font-size: 30px;
     font-weight: 200;
-    margin-left: 100px;
+    
     margin-top: 15px;
     
 }
 
 @media screen and (max-width: 800px) {
   .contactsignature {
-    margin-left: 25px;
+    
     font-size: 15px;
     
   }
