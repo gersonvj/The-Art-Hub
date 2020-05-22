@@ -168,7 +168,7 @@ button[type=menu]:hover {
 @media screen and (max-width: 800px) {
   .wrappertxtmain {
     float: none;
-    height: 800px;
+    height: 900px;
     
   }
 }
@@ -182,7 +182,7 @@ button[type=menu]:hover {
 @media screen and (max-width: 800px) {
   .wrappertxtmiddle {
     float: none;
-    height: 360px;
+    height: 420px;
     margin-top: 30px;
   }
 }
