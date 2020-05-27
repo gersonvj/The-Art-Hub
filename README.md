@@ -15,7 +15,7 @@ As the user open the home page, have a introduction that leads him to see a prom
 <ul>Existing Features:
   <li>Home page: Is the art hub ideia and concept, one main picture, gallery, address and social. The gallery section show the latest pictures, and a link to the gallery to show the user more artworks.</li>
   <li>Gallery:   Show the arts developed by our community</li>
-  <li>Contact: This contact is for customers who seek a specific type o art and want to ask to the community for developing</li>
+  <li>Contact: This contact is for customers who seek a specific type of art and want to ask to the community for developing</li>
 </ul>
 
 <ul>Future Features:
@@ -57,7 +57,7 @@ As the user open the home page, have a introduction that leads him to see a prom
 
 Using Google Chrome inspect, any devices bigger than 300px width are fully responsive. 
 Some devices used for test: Iphone 6s, 7 and 8 - Motorola G6 and G5 - Samgung S7 - fully responsive.
-No broken links in the images, buttos or social networks.
+No broken links in the images, buttons or social networks.
 All forms are mandatory. Form button on contact page do not send the content.
 
 
