@@ -2,20 +2,20 @@
 
 Welcome,
 
-Our concept is to show art from undiscovered artists. The ideia is to gather artists to improve their skills and show in the gallery all their art.
+Our concept is to show art from undiscovered artists. The purpose is to gather artists to improve their skills and show in the gallery all their art.
 
 The Art Hub now is starting exposing Shane Byrne arts.
 
 ## Ux Structure
 
-As the user open the home page, have a introduction that leads him to see a prominent picture with a concept of the drawing. Lead to latest pictures and to the link gallery for more work. If specifc work is required the user go into contact taht leads him to a form and ask any questions he might have it.
+As the user opens the home page, have an introduction that leads him to see a prominent picture with a concept of the drawing, when the user hovers the picture it will change, creating curiosity for the other pictures in the website. Lead to the latest pictures and the link gallery for more work. If specific work is required the user go into contact that leads him to a form and ask any questions he might have it.
 
 ## Features
 
 <ul>Existing Features:
-  <li>Home page: Is the art hub ideia and concept, one main picture, gallery, address and social. The gallery section show the latest pictures, and a link to the gallery to show the user more artworks.</li>
+  <li>Home page: The art hub idea and concept, one main picture, gallery, address and social. The gallery section show the latest pictures, and a link to the gallery to shows the user more artworks.</li>
   <li>Gallery:   Show the arts developed by our community</li>
-  <li>Contact: This contact is for customers who seek a specific type of art and want to ask to the community for developing</li>
+  <li>Contact: This contact is for customers who seek a specific type of art and want to ask the community for developing</li>
 </ul>
 
 <ul>Future Features:
@@ -56,14 +56,15 @@ As the user open the home page, have a introduction that leads him to see a prom
 ## Test
 
 Using Google Chrome inspect, any devices bigger than 300px width are fully responsive. 
-Some devices used for test: Iphone 6s, 7 and 8 - Motorola G6 and G5 - Samgung S7 - fully responsive.
+Actual devices used for the test: iPhone 6s, 7 and 8 - Motorola G6 and G5 - Samsung S7 - fully responsive.
 No broken links in the images, buttons or social networks.
-All forms are mandatory. Form button on contact page do not send the content.
+All forms are mandatory. Form button on the contact page does not send the content.
+Web Browsers - Chrome, Firefox and Edge - working perfectly.
 
 
 ## Deployment
 
-Deployed at GitHub, clicking in settings, scrooll down the page until GitHub pages. In the source section clink on the menu-drop, and choose the master-branch option. After done this a weblink will be avaible to use.
+Deployed at GitHub, clicking in settings, scroll down the page until GitHub pages. In the source section clink on the menu-drop, and choose the master-branch option. After doing this a web link will be available to use.
 The Art Hub: https://gersonvj.github.io/milestoneproject/
 
 
