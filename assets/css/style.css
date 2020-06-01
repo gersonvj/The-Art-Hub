@@ -71,24 +71,20 @@
 
 /*------------------------------------------MENU NAVBAR*/
 
-.buttonwrapper{
-    width: 99.5%;
-    margin-left: 0.25%;
-    margin-right: 0.25%;
-}
 
-button[type=menu] {
+
+.menubutton {
     margin-top: 1px;
     margin-left: 1.5px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color: rgb(75, 92, 75) ;
-    width:33%;
+    
 
 }
 
 @media screen and (max-width: 320px) {
-  button[type=menu] {
+  .menubutton {
     width: 32%;
     margin-left: 0.1px;
     
@@ -96,7 +92,7 @@ button[type=menu] {
 }
 
 @media screen and (max-width: 699px) and (min-width: 301px) {
-  button[type=menu] {
+  .menubutton {
     width: 32%;
     text-align: center;
     
@@ -104,7 +100,7 @@ button[type=menu] {
 }
 
 @media screen and (max-width: 799px) and (min-width: 700px) {
-  button[type=menu] {
+  .menubutton {
     width: 32.5%;
     text-align: center;
     
@@ -112,14 +108,14 @@ button[type=menu] {
 }
 
 @media screen and (min-width: 800px) {
-  button[type=menu] {
+  .menubutton {
     width: 32.5%;
     text-align: center;
     
   }
 }
 
-button[type=menu]:hover {
+.menubutton:hover {
     background: #e84610;
 }
 
