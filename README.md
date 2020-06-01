@@ -50,7 +50,12 @@ As the user opens the home page, have an introduction that leads him to see a pr
 
 <h4>Fontawewsome: https://fontawesome.com/</h4>
 <ul>
-    <li>Some icons and coail logo</li>
+    <li>Used to show awsome icons</li>
+  </ul>
+  
+  <h4>Fancybox: https://fancyapps.com/fancybox/3/</h4>
+<ul>
+    <li>presenting the pictures user friendly</li>
   </ul>
 
 ## Test
